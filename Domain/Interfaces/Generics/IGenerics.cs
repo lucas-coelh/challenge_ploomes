@@ -2,7 +2,6 @@
 {
     public interface IGenerics<T> where T : class
     {
-
         Task Add(T Object);
         Task Update(T Object);
         Task Delete(T Object);

@@ -10,7 +10,7 @@ namespace Entities.Entities
         }
 
         [NotMapped]
-        public string Property { get; private set; }
+        public string NameProperty { get; private set; }
 
         [NotMapped]
         public string Message { get; private set; }
@@ -26,21 +26,21 @@ namespace Entities.Entities
                 Notifications.Add(new Notifies
                 {
                     Message = "Campo Obrigatório",
-                    Property = property
+                    NameProperty = property
                 });
                 return false;
             }
             return true;
         }
 
-        public bool ValidPropertyInt(int value, string property)
+        public bool ValidatePropertyInt(int value, string property)
         {
             if (value < 1 || string.IsNullOrWhiteSpace(property))
             {
                 Notifications.Add(new Notifies
                 {
                     Message = "Campo Obrigatório",
-                    Property = property
+                    NameProperty = property
                 });
                 return false;
             }

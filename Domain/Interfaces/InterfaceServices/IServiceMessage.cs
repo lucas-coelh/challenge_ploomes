@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Entities.Entities;
 
 namespace Domain.Interfaces.InterfaceServices
 {
     public interface IServiceMessage
     {
+        Task Add(Message Objet);
+
+        Task Update(Message Objet);
+
+        Task<List<Message>> GetActiveMessagesList(bool active);
     }
 }
