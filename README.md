@@ -3,7 +3,7 @@
 ## Conteúdo
 
 - [Informações gerais](#informações-gerais)
-- [Acesso a ploomesAPI](#acesso-a-API)
+- [Acesso a API](#acesso-a-api)
 - [Estrutura da api](#estrutura-da-api)
 - [Estrutura do projeto](#estrutura-do-projeto)
 - [Possíveis melhorias](#possíveis-melhorias)
@@ -20,6 +20,7 @@ As principais ferramentas que possibilitaram esse projeto são:
 
 - ASP .NET Core 7;
 - Entity Framework Core 7;
+- Identity;
 - AutoMapper;
 - SQL Server;
 - JWT;
@@ -30,7 +31,7 @@ As principais ferramentas que possibilitaram esse projeto são:
 
 ## Acesso a API
 
-A API está hospedada no Azure e pode ser acessada através do link: <a href="https://ploomes-challenge.azurewebsites.net/swagger" target="_blank">ploomesAPI</a>
+A API está hospedada no Azure e pode ser acessada através do link: <a href="https://ploomes-challenge.azurewebsites.net/swagger/index.html" target="_blank">ploomesAPI</a>
 <br>
 
 ## Estrutura da API
