@@ -9,7 +9,7 @@ namespace WebAPIs.Controllers
     {
 
         [Produces("application/json")]
-        [HttpGet("get")]
+        [HttpGet]
         public async Task<IActionResult> GetCnpj([FromQuery] string cnpj)
         {
             var validCnpj = CnpjHelper.ValidCnpj(cnpj);
