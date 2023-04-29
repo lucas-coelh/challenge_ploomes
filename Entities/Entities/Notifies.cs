@@ -33,19 +33,5 @@ namespace Entities.Entities
             return true;
         }
 
-        public bool ValidatePropertyInt(int value, string property)
-        {
-            if (value < 1 || string.IsNullOrWhiteSpace(property))
-            {
-                Notifications.Add(new Notifies
-                {
-                    Message = "Campo Obrigatório",
-                    NameProperty = property
-                });
-                return false;
-            }
-            return true;
-        }
-
     }
 }

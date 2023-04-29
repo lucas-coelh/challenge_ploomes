@@ -27,7 +27,7 @@ namespace Domain.Services
 
         public async Task Update(Message item)
         {
-            var validateTitle = item.ValidPropertyString(item.Title, "Titulo");
+            var validateTitle = item.ValidPropertyString(item.Title, "Title");
             if (validateTitle)
             {
                 item.ModifiedDate = DateTime.Now;

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebAPIs.Models;
 using WebAPIs.Models.Requests;
+using WebAPIs.Utils.ExternalAPI;
 
 namespace WebAPIs.Controllers
 {
